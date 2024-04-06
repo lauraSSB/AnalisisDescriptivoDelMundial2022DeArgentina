@@ -20,7 +20,7 @@ https://github.com/statsbomb/statsbombpy/tree/master/doc.
 
 Para realizar el análisis descriptivo se realizaron todas las visualizaciones desde un notebook de Google Colab, el cual 
 se dividió en 6 secciones: 
-● Goles Esperados: desde la base de datos de Fbref de cada partido se tomaron los 
+\item Goles Esperados: desde la base de datos de Fbref de cada partido se tomaron los 
 datos de los goles esperados a anotar y los goles esperados a recibir. Existe un 
 dataset alimentado desde esta página, y se realizaron 3 diagramas de línea para 
 comparar los goles anotados con los goles esperados a anotar, los goles recibidos 
