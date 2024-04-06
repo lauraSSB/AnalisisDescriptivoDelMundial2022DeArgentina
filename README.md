@@ -35,20 +35,20 @@ se hizo un análisis cuantitativo que incluye el número de bloqueos e intercepc
 por jugador, así como un gráfico de barras que modelaba la cantidad de pases 
 completados y fallados por jugador. 
 - **Análisis de los pases durante el partido:** con un dataset proporcionado por fbref 
-    que nos indicaba la cantidad de pases por jugador y que cantidad hizo cada uno por 
-    sector. En este caso, existen 5 sectores. El tercio defensivo, medio y atacante, y la 
-    zona del penal de defensa y de ataque. Se realizó un diagrama de waffle que nos 
-    muestra los 9 jugadores con más pases durante todo el partido, y una proporción de 
-    cuantos pases hizo en cuales zonas. 
-    5. **Análisis de los eventos de pases durante el partido:** con la librería Statsbomb se 
-    extrajeron los eventos durante el partido. Se filtraron esos eventos por pases de parte 
-    de ambos equipos, y según la posición del jugador se dividieron estos pases. Se hizo 
-    un contraste entre ambos equipos para los arqueros, defensas, mediocampistas y 
-    delantero. El inicio del pase se representa con un círculo, mientras que su trayectoria 
-    es representada por líneas. 
-    6. **Mapa de tiros al arco (mapa de calor):** con la librería Statsbomb se extrajeron los 
-    eventos durante el partido y se filtraron por tiros de parte de ambos equipos. Se realizó 
-    un mapa de ‘calor’ en donde se indica en qué ubicación de la cancha se hizo el tiro, 
-    el tamaño del círculo representa la probabilidad de que sea gol (entre más chiquito, 
-    menos probabilidad), y los círculos rojos representan los tiros que terminaron dentro 
-    de la portería.
+que nos indicaba la cantidad de pases por jugador y que cantidad hizo cada uno por 
+sector. En este caso, existen 5 sectores. El tercio defensivo, medio y atacante, y la 
+zona del penal de defensa y de ataque. Se realizó un diagrama de waffle que nos 
+muestra los 9 jugadores con más pases durante todo el partido, y una proporción de 
+cuantos pases hizo en cuales zonas. 
+- **Análisis de los eventos de pases durante el partido:** con la librería Statsbomb se 
+extrajeron los eventos durante el partido. Se filtraron esos eventos por pases de parte 
+de ambos equipos, y según la posición del jugador se dividieron estos pases. Se hizo 
+un contraste entre ambos equipos para los arqueros, defensas, mediocampistas y 
+delantero. El inicio del pase se representa con un círculo, mientras que su trayectoria 
+es representada por líneas. 
+- **Mapa de tiros al arco (mapa de calor):** con la librería Statsbomb se extrajeron los 
+eventos durante el partido y se filtraron por tiros de parte de ambos equipos. Se realizó 
+un mapa de ‘calor’ en donde se indica en qué ubicación de la cancha se hizo el tiro, 
+el tamaño del círculo representa la probabilidad de que sea gol (entre más chiquito, 
+menos probabilidad), y los círculos rojos representan los tiros que terminaron dentro 
+de la portería.
