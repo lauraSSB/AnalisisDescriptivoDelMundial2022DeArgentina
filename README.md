@@ -20,22 +20,21 @@ https://github.com/statsbomb/statsbombpy/tree/master/doc.
 
 Para realizar el análisis descriptivo se realizaron todas las visualizaciones desde un notebook de Google Colab, el cual 
 se dividió en 6 secciones: 
-
-    1. **Goles Esperados:** desde la base de datos de Fbref de cada partido se tomaron los 
-    datos de los goles esperados a anotar y los goles esperados a recibir. Existe un 
-    dataset alimentado desde esta página, y se realizaron 3 diagramas de línea para 
-    comparar los goles anotados con los goles esperados a anotar, los goles recibidos 
-    con los goles esperados a recibir y los goles esperados a anotar y a recibir.
-    2. **Análisis de goles y asistencias:** desde Fbref se realizó una base de datos donde se 
-    encontraron distintas estadísticas e información de cada jugador en todos los partidos 
-    del mundial. Los gráficos utilizados fueron tablas de calor, donde se puede concluir 
-    quien fue el goleador, el jugador con más asistencias, y los jugadores con más y 
-    menos minutos en todo el torneo.
-    3. **Análisis de bloqueos e intercepciones:** con el dataset utilizado en el punto anterior, 
-    se hizo un análisis cuantitativo que incluye el número de bloqueos e intercepciones 
-    por jugador, así como un gráfico de barras que modelaba la cantidad de pases 
-    completados y fallados por jugador. 
-    4. **Análisis de los pases durante el partido:** con un dataset proporcionado por fbref 
+- **Goles Esperados:** desde la base de datos de Fbref de cada partido se tomaron los 
+datos de los goles esperados a anotar y los goles esperados a recibir. Existe un 
+dataset alimentado desde esta página, y se realizaron 3 diagramas de línea para 
+comparar los goles anotados con los goles esperados a anotar, los goles recibidos 
+con los goles esperados a recibir y los goles esperados a anotar y a recibir.
+- **Análisis de goles y asistencias:** desde Fbref se realizó una base de datos donde se 
+encontraron distintas estadísticas e información de cada jugador en todos los partidos 
+del mundial. Los gráficos utilizados fueron tablas de calor, donde se puede concluir 
+quien fue el goleador, el jugador con más asistencias, y los jugadores con más y 
+menos minutos en todo el torneo.
+- **Análisis de bloqueos e intercepciones:** con el dataset utilizado en el punto anterior, 
+se hizo un análisis cuantitativo que incluye el número de bloqueos e intercepciones 
+por jugador, así como un gráfico de barras que modelaba la cantidad de pases 
+completados y fallados por jugador. 
+- **Análisis de los pases durante el partido:** con un dataset proporcionado por fbref 
     que nos indicaba la cantidad de pases por jugador y que cantidad hizo cada uno por 
     sector. En este caso, existen 5 sectores. El tercio defensivo, medio y atacante, y la 
     zona del penal de defensa y de ataque. Se realizó un diagrama de waffle que nos 
